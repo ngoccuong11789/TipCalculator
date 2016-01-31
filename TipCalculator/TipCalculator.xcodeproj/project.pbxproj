@@ -15,6 +15,7 @@
 		AE36BF751C57A98700444B67 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36BF741C57A98700444B67 /* TipCalculatorTests.swift */; };
 		AE36BF801C57A98700444B67 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36BF7F1C57A98700444B67 /* TipCalculatorUITests.swift */; };
 		AE36BF8E1C57B08500444B67 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36BF8D1C57B08500444B67 /* SettingsViewController.swift */; };
+		AE3DC8091C5DABDC008C6C2F /* discount-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3DC8081C5DABDC008C6C2F /* discount-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AE36BF7F1C57A98700444B67 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		AE36BF811C57A98700444B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE36BF8D1C57B08500444B67 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AE3DC8081C5DABDC008C6C2F /* discount-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discount-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		AE36BF531C57A98700444B67 = {
 			isa = PBXGroup;
 			children = (
+				AE3DC8081C5DABDC008C6C2F /* discount-icon.png */,
 				AE36BF8F1C57B0E000444B67 /* Navigation Controler Scene */,
 				AE36BF5E1C57A98700444B67 /* TipCalculator */,
 				AE36BF731C57A98700444B67 /* TipCalculatorTests */,
@@ -246,6 +249,7 @@
 				AE36BF6A1C57A98700444B67 /* LaunchScreen.storyboard in Resources */,
 				AE36BF671C57A98700444B67 /* Assets.xcassets in Resources */,
 				AE36BF651C57A98700444B67 /* Main.storyboard in Resources */,
+				AE3DC8091C5DABDC008C6C2F /* discount-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

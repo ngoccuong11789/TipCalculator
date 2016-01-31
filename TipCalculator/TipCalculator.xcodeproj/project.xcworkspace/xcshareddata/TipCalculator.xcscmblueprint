@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "037AF6F5ECB737175DDBBDBCF7BB03BEC72406B2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4A7BF0F9BA47AC1B66B8D0E841B0361C6EE53377" : 0,
+    "037AF6F5ECB737175DDBBDBCF7BB03BEC72406B2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7CA1493F-79E4-48E1-8F5E-78D80E043807",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4A7BF0F9BA47AC1B66B8D0E841B0361C6EE53377" : "IOSWorking\/Justgola_IOS\/SourceCode\/justgola_ios\/",
+    "037AF6F5ECB737175DDBBDBCF7BB03BEC72406B2" : "TipCalculator\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TipCalculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TipCalculator\/TipCalculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ngoccuong11789\/TipCalculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "037AF6F5ECB737175DDBBDBCF7BB03BEC72406B2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/tquocit\/justgola_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A7BF0F9BA47AC1B66B8D0E841B0361C6EE53377"
+    }
+  ]
+}

@@ -23,6 +23,21 @@ class ViewController: UIViewController, DataEnteredDelegate {
     var tipAmount : Int!
     var defaults : NSUserDefaults!
     var valueSaved : Int!
+    @IBOutlet weak var lblx1: UILabel!
+    @IBOutlet weak var lblx2: UILabel!
+    @IBOutlet weak var lblx3: UILabel!
+    @IBOutlet weak var lblx4: UILabel!
+    @IBOutlet weak var discountImage1: UIImageView!
+    @IBOutlet weak var discountImage2: UIImageView!
+    @IBOutlet weak var discountImage3: UIImageView!
+    @IBOutlet weak var discountImage4: UIImageView!
+    @IBOutlet weak var discountImage5: UIImageView!
+    @IBOutlet weak var discountImage6: UIImageView!
+    @IBOutlet weak var discountImage7: UIImageView!
+    @IBOutlet weak var discountImage8: UIImageView!
+    @IBOutlet weak var discountImage9: UIImageView!
+    @IBOutlet weak var discountImage10: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         defaults = NSUserDefaults()
@@ -50,7 +65,10 @@ class ViewController: UIViewController, DataEnteredDelegate {
         
         lblTip.text = String(format: "$%.2f", tip)
         lblTotal.text = String(format: "$%.2f", total)
-
+        lblx1.text = String(format: "$%.2f", total)
+        lblx2.text = String(format: "$%.2f", total/2)
+        lblx3.text = String(format: "$%.2f", total/3)
+        lblx4.text = String(format: "$%.2f", total/4)
     }
     @IBAction func onEditingChanged(sender: AnyObject) {
         self.count()
@@ -75,6 +93,20 @@ class ViewController: UIViewController, DataEnteredDelegate {
         lblTotalView.center.x -= view.bounds.width
         lblTotal.center.x -= view.bounds.width
         tipControl.center.x -= view.bounds.width
+        discountImage1.center.x -= view.bounds.width
+        discountImage2.center.x -= view.bounds.width
+        discountImage3.center.x -= view.bounds.width
+        discountImage4.center.x -= view.bounds.width
+        discountImage5.center.x -= view.bounds.width
+        discountImage6.center.x -= view.bounds.width
+        discountImage7.center.x -= view.bounds.width
+        discountImage8.center.x -= view.bounds.width
+        discountImage9.center.x -= view.bounds.width
+        discountImage10.center.x -= view.bounds.width
+        lblx1.center.x -= view.bounds.width
+        lblx2.center.x -= view.bounds.width
+        lblx3.center.x -= view.bounds.width
+        lblx4.center.x -= view.bounds.width
     }
     override func viewDidAppear(animated: Bool) {
         valueSaved = defaults.integerForKey("saveBill")
@@ -95,6 +127,34 @@ class ViewController: UIViewController, DataEnteredDelegate {
             self.lblTotal.center.x += self.view.bounds.width
             self.tipControl.hidden = false
             self.tipControl.center.x -= self.view.bounds.width
+            self.discountImage1.hidden = false
+            self.discountImage1.center.x += self.view.bounds.width
+            self.discountImage2.hidden = false
+            self.discountImage2.center.x += self.view.bounds.width
+            self.discountImage3.hidden = false
+            self.discountImage3.center.x += self.view.bounds.width
+            self.discountImage4.hidden = false
+            self.discountImage4.center.x += self.view.bounds.width
+            self.discountImage5.hidden = false
+            self.discountImage5.center.x += self.view.bounds.width
+            self.discountImage6.hidden = false
+            self.discountImage6.center.x += self.view.bounds.width
+            self.discountImage7.hidden = false
+            self.discountImage7.center.x += self.view.bounds.width
+            self.discountImage8.hidden = false
+            self.discountImage8.center.x += self.view.bounds.width
+            self.discountImage9.hidden = false
+            self.discountImage9.center.x += self.view.bounds.width
+            self.discountImage10.hidden = false
+            self.discountImage10.center.x += self.view.bounds.width
+            self.lblx1.hidden = false
+            self.lblx1.center.x += self.view.bounds.width
+            self.lblx2.hidden = false
+            self.lblx2.center.x += self.view.bounds.width
+            self.lblx3.hidden = false
+            self.lblx3.center.x += self.view.bounds.width
+            self.lblx4.hidden = false
+            self.lblx4.center.x += self.view.bounds.width
         })
         self.count()
     }
