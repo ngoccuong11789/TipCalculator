@@ -29,6 +29,6 @@ The following **additional** features are implemented:
 
 
 ## Demo
-![image](https://{https://github.com/ngoccuong11789/TipCalculator/blob/master/walkthrough.gif})
+![image](https://github.com/ngoccuong11789/TipCalculator/blob/master/walkthrough.gif)
 
 
