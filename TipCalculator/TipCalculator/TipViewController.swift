@@ -14,6 +14,8 @@ class ViewController: UIViewController, DataEnteredDelegate {
     @IBOutlet weak var txtBillAmount: UITextField!
     @IBOutlet weak var tipControl: UISegmentedControl!
     
+    @IBOutlet weak var lblTest2: UILabel!
+
     @IBOutlet weak var UIViewControl: UIView!
 
     @IBOutlet weak var lblTotalView: UILabel!
@@ -23,6 +25,8 @@ class ViewController: UIViewController, DataEnteredDelegate {
     var tipAmount : Int!
     var defaults : NSUserDefaults!
     var valueSaved : Int!
+    var customTip : Int!
+    var flag : Bool! = true
     @IBOutlet weak var lblx1: UILabel!
     @IBOutlet weak var lblx2: UILabel!
     @IBOutlet weak var lblx3: UILabel!
@@ -69,9 +73,13 @@ class ViewController: UIViewController, DataEnteredDelegate {
         lblx2.text = String(format: "$%.2f", total/2)
         lblx3.text = String(format: "$%.2f", total/3)
         lblx4.text = String(format: "$%.2f", total/4)
+        
     }
+
     @IBAction func onEditingChanged(sender: AnyObject) {
-        self.count()
+
+            self.count()
+
         /*UIView.animateWithDuration(0.5, animations: {
         self.lblTip.center.x += self.view.bounds.width
         })*/
@@ -107,6 +115,9 @@ class ViewController: UIViewController, DataEnteredDelegate {
         lblx2.center.x -= view.bounds.width
         lblx3.center.x -= view.bounds.width
         lblx4.center.x -= view.bounds.width
+        
+        //customTip = defaults.integerForKey("customTip")
+        //lblTest2.text = String(customTip)
     }
     override func viewDidAppear(animated: Bool) {
         valueSaved = defaults.integerForKey("saveBill")
@@ -155,6 +166,7 @@ class ViewController: UIViewController, DataEnteredDelegate {
             self.lblx3.center.x += self.view.bounds.width
             self.lblx4.hidden = false
             self.lblx4.center.x += self.view.bounds.width
+            self.tipControl.removeSegmentAtIndex(3, animated: true)
         })
         self.count()
     }

@@ -16,6 +16,15 @@
 		AE36BF801C57A98700444B67 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36BF7F1C57A98700444B67 /* TipCalculatorUITests.swift */; };
 		AE36BF8E1C57B08500444B67 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36BF8D1C57B08500444B67 /* SettingsViewController.swift */; };
 		AE3DC8091C5DABDC008C6C2F /* discount-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3DC8081C5DABDC008C6C2F /* discount-icon.png */; };
+		AE4F981B1C64CE6100AF48C6 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4F981A1C64CE6100AF48C6 /* add.png */; };
+		AE4F981D1C64CF0400AF48C6 /* Click-Add-To-Tip.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4F981C1C64CF0400AF48C6 /* Click-Add-To-Tip.png */; };
+		AE4F98241C64D12500AF48C6 /* emotion1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE4F981E1C64D12500AF48C6 /* emotion1.jpg */; };
+		AE4F98251C64D12500AF48C6 /* emotion2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4F981F1C64D12500AF48C6 /* emotion2.png */; };
+		AE4F98261C64D12500AF48C6 /* emotion3.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4F98201C64D12500AF48C6 /* emotion3.png */; };
+		AE4F98271C64D12500AF48C6 /* emotion4.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4F98211C64D12500AF48C6 /* emotion4.png */; };
+		AE4F98281C64D12500AF48C6 /* emotion5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE4F98221C64D12500AF48C6 /* emotion5.jpg */; };
+		AE4F98291C64D12500AF48C6 /* emotion6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE4F98231C64D12500AF48C6 /* emotion6.jpg */; };
+		AE4F982B1C64F90500AF48C6 /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4F982A1C64F90500AF48C6 /* money.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		AE36BF811C57A98700444B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE36BF8D1C57B08500444B67 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AE3DC8081C5DABDC008C6C2F /* discount-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discount-icon.png"; sourceTree = "<group>"; };
+		AE4F981A1C64CE6100AF48C6 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		AE4F981C1C64CF0400AF48C6 /* Click-Add-To-Tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Click-Add-To-Tip.png"; sourceTree = "<group>"; };
+		AE4F981E1C64D12500AF48C6 /* emotion1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emotion1.jpg; sourceTree = "<group>"; };
+		AE4F981F1C64D12500AF48C6 /* emotion2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emotion2.png; sourceTree = "<group>"; };
+		AE4F98201C64D12500AF48C6 /* emotion3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emotion3.png; sourceTree = "<group>"; };
+		AE4F98211C64D12500AF48C6 /* emotion4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emotion4.png; sourceTree = "<group>"; };
+		AE4F98221C64D12500AF48C6 /* emotion5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emotion5.jpg; sourceTree = "<group>"; };
+		AE4F98231C64D12500AF48C6 /* emotion6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emotion6.jpg; sourceTree = "<group>"; };
+		AE4F982A1C64F90500AF48C6 /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,15 @@
 		AE36BF531C57A98700444B67 = {
 			isa = PBXGroup;
 			children = (
+				AE4F982A1C64F90500AF48C6 /* money.png */,
+				AE4F981E1C64D12500AF48C6 /* emotion1.jpg */,
+				AE4F981F1C64D12500AF48C6 /* emotion2.png */,
+				AE4F98201C64D12500AF48C6 /* emotion3.png */,
+				AE4F98211C64D12500AF48C6 /* emotion4.png */,
+				AE4F98221C64D12500AF48C6 /* emotion5.jpg */,
+				AE4F98231C64D12500AF48C6 /* emotion6.jpg */,
+				AE4F981C1C64CF0400AF48C6 /* Click-Add-To-Tip.png */,
+				AE4F981A1C64CE6100AF48C6 /* add.png */,
 				AE3DC8081C5DABDC008C6C2F /* discount-icon.png */,
 				AE36BF8F1C57B0E000444B67 /* Navigation Controler Scene */,
 				AE36BF5E1C57A98700444B67 /* TipCalculator */,
@@ -246,9 +273,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4F98291C64D12500AF48C6 /* emotion6.jpg in Resources */,
 				AE36BF6A1C57A98700444B67 /* LaunchScreen.storyboard in Resources */,
+				AE4F982B1C64F90500AF48C6 /* money.png in Resources */,
+				AE4F981D1C64CF0400AF48C6 /* Click-Add-To-Tip.png in Resources */,
+				AE4F98271C64D12500AF48C6 /* emotion4.png in Resources */,
+				AE4F98241C64D12500AF48C6 /* emotion1.jpg in Resources */,
 				AE36BF671C57A98700444B67 /* Assets.xcassets in Resources */,
+				AE4F98251C64D12500AF48C6 /* emotion2.png in Resources */,
+				AE4F98281C64D12500AF48C6 /* emotion5.jpg in Resources */,
 				AE36BF651C57A98700444B67 /* Main.storyboard in Resources */,
+				AE4F981B1C64CE6100AF48C6 /* add.png in Resources */,
+				AE4F98261C64D12500AF48C6 /* emotion3.png in Resources */,
 				AE3DC8091C5DABDC008C6C2F /* discount-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
